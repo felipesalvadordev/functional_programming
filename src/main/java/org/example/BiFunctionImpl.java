@@ -14,6 +14,9 @@ public class BiFunctionImpl {
         System.out.println("Sum 2+3 = " + add.apply(2, 3));
 
         // BiFunction to multiply 2 numbers
+        // T: denotes the type of the first argument to the function
+        // U: denotes the type of the second argument to the function
+        // R: denotes the return type of the function
         BiFunction<Integer, Integer, Integer> multiply = (a, b) -> a * b;
 
         // Implement add using apply()
